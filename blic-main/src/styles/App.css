@@ -1,0 +1,153 @@
+.App {
+  margin: 0 !important;
+  padding: 0 !important;
+  line-height: 1.2 !important;
+ 
+  
+  font-weight: 500 !important;
+}
+.App-header > h1 {
+  padding: 20px !important;
+  font-size: 32px !important;
+  line-height: 24px !important;
+  text-align: center !important;
+  color: #0072bc !important;
+  margin-top: 20px !important;
+  margin-bottom: 20px !important;
+  font-weight: 700 !important;
+}
+
+input[type="text"], input[type="number"] {
+  font-weight: 400;
+  color: #f27317;
+  background: #ffffff;
+  border: 1px solid rgba(151, 151, 151, 0.2);
+  box-shadow: 0px 8px 20px rgb(0 0 0 / 4%);
+  border-radius: 10px;
+}
+input[type="text"]:focus, input[type="number"]:focus {
+  border-bottom: none;
+}
+
+.text-danger {
+  font-weight: 400;
+  font-size: 10px !important;
+  color: #f00;
+}
+
+p {
+  font-weight: 500 !important;
+}
+
+select,
+.form-item > select {
+  border-bottom: none;
+  color: #f27317;
+  background: #ffffff;
+  border: 1px solid rgba(151, 151, 151, 0.2);
+  box-shadow: 0px 8px 20px rgb(0 0 0 / 4%);
+  border-radius: 10px;
+}
+
+.form-item > label {
+  font-weight: 300;
+  font-size: 15px;
+}
+.form-row {
+  font-weight: 300;
+}
+
+/* Buttons */
+button[id="next-btn"] {
+  clear: both;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  text-align: center;
+
+  display: inline-block;
+  font-size: 19px;
+  text-transform: uppercase;
+  padding: 8px 25px;
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+  border: 1px solid #f89c30;
+  background: #f89c30;
+  color: #fff;
+}
+button[id="next-btn"]:before {
+  content: "";
+  z-index: -1;
+  background: #fff;
+  position: absolute;
+  top: 50%;
+  right: 100%;
+  margin: -15px 0 0 1px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50px;
+  -webkit-transform-origin: 0 50%;
+  -moz-transform-origin: 0 50% !important;
+  transform-origin: 0 50%;
+  -webkit-transform: scale3d(1, 2, 1);
+  -moz-transform: scale3d(1, 2, 1) !important;
+  transform: scale3d(1, 2, 1);
+  -webkit-transition: 0.5s all;
+  -moz-transition: 0.5s all !important;
+  transition: 0.5s all;
+}
+button[id="next-btn"]:hover {
+  color: #f89c30;
+}
+button[id="next-btn"]:hover:before {
+  -webkit-transform: scale3d(12, 12, 1);
+  -moz-transform: scale3d(12, 12, 1) !important;
+  transform: scale3d(12, 12, 1);
+}
+
+.secondary-button {
+  margin: 0 5px;
+  padding: 5px 10px;
+  font-size: 14px;
+  color: white;
+  background-color: #f27317;
+  border: 1px solid #f27317;
+  border-radius: 20px;
+  transition: 0.3s;
+}
+.secondary-button:hover {
+  cursor: pointer;
+  background-color: white;
+  color: #f27317;
+}
+
+/* React Date Picker */
+.react-date-picker {
+  z-index: 99;
+}
+.react-date-picker .react-date-picker__wrapper {
+  border: 1px solid rgba(151, 151, 151, 0.2);
+  box-shadow: 0px 8px 20px rgb(0 0 0 / 4%);
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.react-date-picker
+  .react-date-picker__wrapper
+  .react-date-picker__inputGroup__input,
+.react-date-picker
+  .react-date-picker__wrapper
+  .react-date-picker__inputGroup__divider {
+  color: #f27317;
+  font-size: 16px;
+  font-weight: 500;
+  border: 0;
+  box-shadow: none;
+}
+
+.react-date-picker .react-date-picker__wrapper svg {
+  stroke: gray;
+}

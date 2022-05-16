@@ -1,0 +1,54 @@
+
+#header {
+  
+  width :100%;
+  height : 70vh;
+  background-color: #0072bc;
+}
+
+.header1 {
+  display: none;
+}
+
+.brand-name {
+  margin: 0 0 10px 0;
+  font-size : 4rem;
+  font-weight: 1000;
+  color : #0072bc !important;
+  align-self:center;
+}
+
+.my-3 {
+   font-size:2.5rem;
+   font-weight:600;
+   align-content:center;
+ }
+
+ 
+
+ #faq{
+   padding-left : 150px;
+   margin-top:45px;
+
+ }
+ body{
+  
+     color:grey;
+
+ }
+
+ @media only screen and (max-width: 1170px) {
+   .header1 {
+     display: block;
+   }
+   #header {
+     display:none;
+   }
+   .fullsc {
+     display: none;
+   }
+
+   .customer {
+     font-size: 30;
+   }
+ }

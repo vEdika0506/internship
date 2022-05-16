@@ -1,0 +1,18 @@
+.fullsc{
+    display: block;
+}
+
+.mob {
+    display: none;
+}
+
+@media screen and (max-width: 980px) {
+    .fullsc{
+        display: none;
+    }
+    
+    .mob {
+        display: block;
+        margin-top: 250px;
+    }
+}

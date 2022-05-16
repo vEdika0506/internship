@@ -1,0 +1,35 @@
+
+@font-face {
+  font-family: "AllianzSansLight";
+  font-style: bold;
+  font-weight: 700;
+  src: local("../fonts/AllianzSans Bold"),
+    url("../fonts/AllianzSans Bold.otf") format("opentype");
+}
+@font-face {
+  font-family: "AllianzSansLight";
+  font-style: light;
+  font-weight: 300;
+  src: local("../fonts/AllianzSans Light Regular"),
+    url("../fonts/AllianzSans Light Regular.otf") format("opentype");
+}
+@font-face {
+  font-family: "AllianzSansLight";
+  font-style: normal;
+  font-weight: 500;
+  src: local("../fonts/AllianzSans Regular"),
+    url("../fonts/AllianzSans Regular.otf") format("opentype");
+}
+
+
+* {
+  font-family: "AllianzSansLight";
+}
+
+body {
+  margin: 0;
+  margin-top: -25px;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

@@ -1,0 +1,23 @@
+#exampleCheck1 {
+  margin-top: 7px;
+}
+
+.p {
+  font-weight: 300;
+}
+
+.modal-dialog .modal-header .close {
+  border: none;
+  background: transparent;
+  font-size: 22px;
+}
+.modal-dialog .modal-header .close .sr-only {
+  display: none;
+}
+
+@media screen and (max-width: 992px) {
+  .myVerticallyCenteredModal img {
+    float: none;
+    transform: scale(0.1);
+  }
+}
